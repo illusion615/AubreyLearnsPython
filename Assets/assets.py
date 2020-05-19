@@ -1,3 +1,13 @@
+"""
+Comments
+"""
+
+'''
+Comments
+'''
+
+# Comments
+
 teammembers = [
     {"name": "Aubrey", "attack": 20, "live": 100, "level": 1, "experience": 0},
     {"name": "Pipi", "attack": 10, "live": 75, "level": 1, "experience": 0}
