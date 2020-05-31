@@ -1,9 +1,9 @@
 # Aubrey Learns Python
-This project is record the progress of Aubrey learning Python and solving mathmatics problems and making games
+This project is to record the learning progress of Aubrey learns Python and using it to solve mathmatics problems and make games.
 
 # Content
 ## Game of Life(GameOfLife.py)
-Remake of Conway's Game of Life cellular simulator.
+Remake of Conway's Game of Life cellular automation simulator.
 
 **Rules**
 1. Cells with 0 or 1 neighbours die of loneliness
