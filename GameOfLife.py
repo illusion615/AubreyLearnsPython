@@ -15,7 +15,7 @@ WHITE = (255, 255, 255)
 BLACK = (0, 0, 0)
 GREY = (105, 105, 105)
 HINT = "1:Block   2:Beehive   3:Glider   4:Gosper Glider Gun   9:Random Seed   0:Reset"
-HINT2 = "ESC: Quit   -:Zoom out   =:Zoom out   Space:Keep evolve   Right:Step evolve"
+HINT2 = "ESC: Quit   -:Zoom out   =:Zoom out   Space:Turn on/off continually evolving   Right:Step evolving"
 _screenSize = (1024, 768)
 _topPanelHeight = _bottomPanelHeight = 77
 _cellBackgroundPosition = (
@@ -168,13 +168,13 @@ def drawCells():
     pygame.draw.rect(
         DISPLAY, BLACK, (0, 0, _screenSize[0], _screenSize[1]-_bottomPanelHeight))
     # Draw row lines
-    for i in range(0, _numberOfRows):
+    for i in range(0, _numberOfRows+1):
         pygame.draw.aaline(
             DISPLAY,
             GREY,
-            (0, _topPanelHeight + i * _cellSize), (1024, _topPanelHeight + i * _cellSize))
+            (0, _topPanelHeight + i*_cellSize), (_screenSize[0], _topPanelHeight + i*_cellSize))
     # Draw column lines
-    for i in range(0, _numberOfColumns):
+    for i in range(0, _numberOfColumns+1):
         pygame.draw.aaline(
             DISPLAY,
             GREY,
