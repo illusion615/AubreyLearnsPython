@@ -1,6 +1,35 @@
 teammembers = [
-    {"name": "Aubrey", "attack": 20, "live": 100, "level": 1, "experience": 0},
-    {"name": "Pipi", "attack": 10, "live": 75, "level": 1, "experience": 0}
+    {
+        "name": "Aubrey",
+        "attack": 20,
+        "live": 100,
+        "level": 1,
+        "experience": 0,
+        "iconPath": 'Assets/Images/aubrey.png',
+        "iconSize": (100, 100)
+        },
+    {
+        "name": "Pipi",
+        "attack": 10,
+        "live": 75,
+        "level": 1,
+        "experience": 0,
+        "iconPath": 'Assets/Images/pipi.png',
+        "iconSize": (100, 100)
+        }
+]
+
+levels = [
+    {'level': 1, 'attack_increase': 1.1, 'live_increase': 1.1, 'upgrade': 100},
+    {'level': 2, 'attack_increase': 1.1, 'live_increase': 1.1, 'upgrade': 100},
+    {'level': 3, 'attack_increase': 1.1, 'live_increase': 1.1, 'upgrade': 100},
+    {'level': 4, 'attack_increase': 1.1, 'live_increase': 1.1, 'upgrade': 100},
+    {'level': 5, 'attack_increase': 1.1, 'live_increase': 1.1, 'upgrade': 100},
+    {'level': 6, 'attack_increase': 1.1, 'live_increase': 1.1, 'upgrade': 100},
+    {'level':7,'attack_increase':1.1,'live_increase':1.1,'upgrade':100},
+    {'level': 8, 'attack_increase': 1.1, 'live_increase': 1.1, 'upgrade': 100},
+    {'level': 9, 'attack_increase': 1.1, 'live_increase': 1.1, 'upgrade': 100},
+    {'level':10,'attack_increase':1.1,'live_increase':1.1,'upgrade':100}
 ]
 
 enemies = [
