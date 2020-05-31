@@ -2,7 +2,9 @@
 This project is to record the learning progress of Aubrey learns Python and using it to solve mathmatics problems and make games.
 
 # Content
-## Game of Life(GameOfLife.py)
+## Python Class
+## Games
+### Game of Life(GameOfLife.py)
 Remake of Conway's Game of Life cellular automation simulator.
 
 **Rules**
@@ -27,3 +29,4 @@ Simulator function:
 * =: Zoom out   
 * Space: Turn on/off continually evolving   
 * Right: Step evolving
+## Mathmatic Problems
