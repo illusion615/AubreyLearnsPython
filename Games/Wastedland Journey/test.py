@@ -1,16 +1,23 @@
-# This file are used for module testing
-import pygame
+# This file are used for pygame utility testing
 import sys
+import pygame
 from pygame.locals import *
+from Utilities.utilityPygame import utilPygame
 
-#from Utilities.utilityPygame import utilPygame
+pygame.init()
 
+utilPG = utilPygame()
+FONT_CAPTION = pygame.font.SysFont('Arial', 24)
+FONT_MESSAGE = pygame.font.SysFont('Arial', 18)
+
+
+SCREEN_SIZE = (1024, 768)
 white = (255, 255, 255)
 black = (0, 0, 0)
 msg = 'Hello, This the first message to the world.'
 
-pygame.init()
-window = pygame.display.set_mode((1024, 768))
+
+window = pygame.display.set_mode(SCREEN_SIZE)
 clock = pygame.time.Clock()
 msgFont = pygame.font.SysFont('Arial', 20)
 
@@ -63,7 +70,7 @@ while True:
                 msg = 'key right pressed.'
                 msgPos = (msgPos[0] + 10, msgPos[1])
         if event.type = MOUSEBUTTONDOWN:
-            
+
     msgbox = pygame.draw.rect(
         window,
         white,
